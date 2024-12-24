@@ -1,0 +1,65 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:poppins,Helvetica, sans-serif;
+    padding:0px;
+    margin:0px;
+}
+
+div#container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+div.pomodoro-app{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center;
+    width:500px;
+    height:500px;
+    background:linear-gradient(to bottom, rgb(83, 73, 255),rgb(31, 3, 49));
+    border-radius:500px;
+    box-shadow:-5px 5px 30px rgb(58, 58, 58)
+}
+
+ul li{
+    list-style:none;
+    font-size:40px;
+    padding-right:8px;
+}
+
+li:hover{
+    cursor:pointer;
+}
+
+li.stop-time-btn:hover{
+    cursor:default;
+}
+
+div.time p{
+    font-size:65px;
+    font-weight:bolder;
+    border: 10px solid white;
+    border-radius:5px;
+    padding:15px;
+    color:white;
+    width:300px;
+    text-align:center;
+}
+
+div.buttons{
+    margin-bottom:50px;
+    display:flex;
+}
+
+ul.buttons{
+    display:flex;
+    margin-right:40px;
+    margin-bottom:30px;
+}
